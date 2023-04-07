@@ -1,0 +1,3 @@
+Create the simple storage engine to save data in file like , let say csv for start.
+Now add api to convert that data into html report
+Now add api to convert that data to json
