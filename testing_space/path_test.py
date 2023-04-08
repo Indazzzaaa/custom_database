@@ -1,5 +1,3 @@
-import sys
-sys.path.append(r"E:\Python_Proj\database_creation")
-print(sys.path)
-import storage
-print(dir(storage))
+from pathlib import Path
+# print(Path(__file__).parent.parent.joinpath('Data'))
+print(Path(__file__).parent.parent)

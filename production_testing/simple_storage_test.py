@@ -9,7 +9,7 @@ from memory_profiler import profile
 start = time.perf_counter()
 
 path = Path(__file__).parent.parent
-sys.path.append(r"E:\Python_Proj\database_creation")
+sys.path.append(fr"{path}")
 
 from storage import FileStorageEngine
 
